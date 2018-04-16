@@ -136,6 +136,9 @@
 }
 
 /*redes2*/
+.icon-circle{
+    padding: 10px;
+}
 
 .icon-circle .fa{
     font-size           : 25px;
