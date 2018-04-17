@@ -3,10 +3,19 @@
       line-height: 1.8;
       color: #f5f6f7;
   }
+h1 {
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+}
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
-      background-color: #1abc9c; /* Green */
+      background-color: #11a7ec; /* Green */
       color: #ffffff;
   }
   .bg-2 { 
@@ -22,22 +31,25 @@
       color: #fff;
   }
   .container-fluid {
-      padding-top: 70px;
+      /*padding-top: 70px;*/
       padding-bottom: 70px;
   }
   .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       border: 0;
       border-radius: 0;
       margin-bottom: 0;
       font-size: 12px;
-      letter-spacing: 5px;
+      
   }
   .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
+      color: #11a7ec !important;
+      font-weight: bolder;
+      
+}
 
+  
   /*resde*/
 
 .social {
@@ -273,3 +285,4 @@
     border                  : 1px solid #007bb7;
 
 }
+
