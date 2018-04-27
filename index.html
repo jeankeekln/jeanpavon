@@ -20,6 +20,7 @@
   <link rel="shortcut icon" href="img/logo.ico">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118326262-1"></script>
 <script>
@@ -30,6 +31,17 @@
   gtag('config', 'UA-118326262-1');
 </script>
 
+<!-- Google Analytics seguimiento de click-->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-118326262-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
 
 </head>
 
@@ -49,13 +61,13 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="#">Nosotros</a>
+            <a href="#" onclick="ga('send', 'event', 'nosotros nav', 'clics', 'clics en Boton 1', 1);">Nosotros</a>
           </li>
           <li>
-            <a href="#">Mi Equipo</a>
+            <a href="#" onclick="ga('send', 'event', 'mi equipo nav', 'clics', 'clics en Boton 1', 1);">Mi Equipo</a>
           </li>
           <li>
-            <a href="#">Contactame</a>
+            <a href="#" onclick="ga('send', 'event', 'contactame nav', 'clics', 'clics en Boton 1', 1);">Contactame</a>
           </li>
         </ul>
       </div>
